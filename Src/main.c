@@ -57,7 +57,11 @@ static void MX_I2C1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+#include <stdio.h>
+int __io_putchar(int ch) {
+	ITM_SendChar(ch);
+	return (ch);
+}
 /* USER CODE END 0 */
 
 /**
@@ -110,8 +114,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	   LL_mDelay(1000);
-	   LL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+	  LL_mDelay(1000);
+	  printf("float %f\n", 2.534f);
+	  LL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
