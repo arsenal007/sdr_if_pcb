@@ -792,7 +792,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 33.02) (xy 151.13 33.02)
+			(xy 177.8 33.02) (xy 151.13 33.02)
 		)
 		(stroke
 			(width 0)
@@ -832,7 +832,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 38.1) (xy 171.45 38.1)
+			(xy 151.13 38.1) (xy 177.8 38.1)
 		)
 		(stroke
 			(width 0)
@@ -862,7 +862,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 43.18) (xy 171.45 43.18)
+			(xy 151.13 43.18) (xy 177.8 43.18)
 		)
 		(stroke
 			(width 0)
@@ -902,7 +902,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 27.94) (xy 171.45 27.94)
+			(xy 151.13 27.94) (xy 177.8 27.94)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +966,7 @@
 	)
 	(global_label "I_LINE_IN"
 		(shape input)
-		(at 171.45 43.18 0)
+		(at 177.8 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -976,7 +976,7 @@
 		)
 		(uuid "26fafd88-02bc-4e21-bd7f-28b652d1144f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.5519 43.18 0)
+			(at 190.9019 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,7 +1010,7 @@
 	)
 	(global_label "RX0"
 		(shape output)
-		(at 171.45 27.94 0)
+		(at 177.8 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1020,7 +1020,7 @@
 		)
 		(uuid "3f949be8-5fcf-43d3-b643-ef8076e8e5f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.6736 27.94 0)
+			(at 185.0236 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,6 +1048,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RELAY_POWER"
+		(shape output)
+		(at 156.21 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "8b9b91fb-57f1-4293-8a1b-7bda9a424d36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.6823 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1164,7 +1186,7 @@
 	)
 	(global_label "RX180"
 		(shape output)
-		(at 171.45 33.02 0)
+		(at 177.8 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1174,7 +1196,7 @@
 		)
 		(uuid "ed8684a4-20ac-4644-86c5-ce05881506ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.5764 33.02 0)
+			(at 187.9264 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1596,7 @@
 	)
 	(symbol
 		(lib_id "power:+10V")
-		(at 171.45 38.1 270)
+		(at 177.8 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1583,7 +1605,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3ab7f50-d955-41a3-82cd-a0dadd5481a1")
 		(property "Reference" "#PWR08"
-			(at 167.64 38.1 0)
+			(at 173.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +1614,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 175.26 38.0999 90)
+			(at 181.61 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 38.1 0)
+			(at 177.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,7 +1632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 38.1 0)
+			(at 177.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 171.45 38.1 0)
+			(at 177.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
